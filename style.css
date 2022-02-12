@@ -1,0 +1,415 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#nav1 *, #nav2 * {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#nav1 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 1vw;
+}
+
+#nav1 ul {
+    display: inline-block;
+    margin: auto;
+}
+
+#nav1 ul li {
+    display: inline-block;
+    padding: 5px 50px;
+    vertical-align: middle;
+    border-bottom: 0.1px solid #fff;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 0 -2px;
+}
+
+#nav1 .logo {
+    border-bottom: 0;
+    margin: 0 0;
+    padding: 0;
+}
+
+#nav1 .logo div {
+    width: 150px;
+    height: 75px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(image/logo%20white.png);
+}
+
+#nav1 ul li:hover {
+    color: rgb(199, 217, 59);
+}
+
+#nav1 .shop-bag {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(image/login%20white.png);
+    display: inline-block;
+    position: absolute;
+    right: 5vw;
+    top: 5vw;
+}
+
+#nav1 .shop-bag:hover {
+    background-image: url(image/login-hover.png);
+}
+
+#nav2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 1vw;
+    text-align: center;
+    z-index: 2;
+}
+
+#nav2 ul {
+    display: inline-block;
+    margin: auto;
+}
+
+#nav2 ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    vertical-align: middle;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+#nav2 ul li:hover {
+    color: rgb(199, 217, 59);
+}
+
+#nav2 .logo div {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(image/logo%20black.png);
+}
+
+#nav2 .shop-bag {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(image/login%20black.png);
+    float: right;
+    margin: 1vw;
+}
+
+#scarf {
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(image/scarf.png);
+    width: 100px;
+    height: 100px;
+    transform: transform .2s;
+}
+
+#scarf:hover {
+    transform: scale(2);
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+.slide {
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+#slide-1 {
+    background-image: url(image/home.jpeg);
+}
+
+.slide-title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: rgb(0 0 0 / 50%) 0px 0px 15px;
+}
+
+.slide-title h1 {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.slide-title h1, .page-title h1 {
+    padding: 0% 1em 1.85625%;
+    font-size: 4.5em;
+}
+
+.slide-title a {
+    color: #fff;
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+.slide-title a:hover {
+    color: rgb(199, 217, 59);
+}
+
+.page {
+    padding: 30px 0 100px 0;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.page-title h1 {
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.page-title h4 {
+    max-width: 600px;
+    width: 60%;
+    margin: auto;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+.product {
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vw;
+}
+
+#sign-1 {
+    background-image: url(image/Clyde_brown_large.jpeg);
+}
+
+#sign-2 {
+    background-image: url(image/Squirrel_kiwi_large.jpeg);
+}
+
+#sign-3 {
+    background-image: url(image/Sid_Nancy_charcoal_coral_large.jpeg);
+}
+
+#spring-1 {
+    background-image: url(image/gus-blue_large.jpeg);
+}
+
+#spring-2 {
+    background-image: url(image/mobius_pink_large.jpeg);
+}
+
+#spring-3 {
+    background-image: url(image/cowl_bluegrey_large.jpeg);
+}
+
+#winter-1 {
+    background-image: url(image/the-ricky2_large.jpeg);
+}
+
+#winter-2 {
+    background-image: url(image/the-felix-grey_large.jpeg);
+}
+
+#winter-3 {
+    background-image: url(image/theidk2_large.jpeg);
+}
+
+#hallow-1 {
+    background-image: url(image/the_hallows_eve_skull_bones_detail_large.jpeg);
+}
+
+#hallow-2 {
+    background-image: url(image/the_hallows_eve_solid_large.jpeg);
+}
+
+.view-details, .vd-bg {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.vd-bg {
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0, .5);
+    width: 30vw;
+    height: 30vw;
+    color: #fff;
+    max-height: 350px;
+    max-width: 350px;
+    display: none;
+}
+
+.product:hover >.vd-bg {
+    display: block;
+}
+
+.view-details h2 {
+    border-bottom: 1px solid white;
+    padding: 0% 1em 1.85625%;
+}
+
+.view-details a:hover {
+    color: rgb(199, 217, 59);
+}
+
+.banner {
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+#divider-1 {
+    background-image: url(image/img_homepage_divider.jpeg);
+}
+
+#divider-2 {
+    background-image: url(image/img_homepage_footer.jpeg);
+}
+
+#about {
+    background-color: #f4efde;
+}
+
+#about .product {
+    height: auto;
+}
+
+.gif-anim {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#prem-yarn {
+    background-image: url(image/img_premiumyarns_anim.png);
+}
+
+#prem-yarn:hover {
+    background-image: url(image/img_premiumyarns_anim.gif);
+}
+
+#cus-fit {
+    background-image: url(image/img_custom_fit_anim.png);
+}
+
+#cus-fit:hover {
+    background-image: url(image/img_custom_fit_anim.gif);
+}
+
+#knit-hand {
+    background-image: url(image/img_knitbyhand_anim.png);
+}
+
+#knit-hand:hover {
+    background-image: url(image/img_knitbyhand_anim.gif);
+}
+
+footer {
+    background-color: #dba539;
+    text-align: center;
+    color: #fff;
+}
+
+.social {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    align-content: space-between;
+}
+
+.social a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px;
+}
+
+#e-mail {
+    background-image: url(image/twitter.png);
+}
+
+#e-mail:hover {
+    background-image: url(image/twitter-hover.png);
+}
+
+#instagram {
+    background-image: url(image/instagram.png);
+}
+
+#instagram:hover {
+    background-image: url(image/instagram-hover.png);
+}
+
+#twitter {
+    background-image: url(image/email.png);
+}
+
+#twitter:hover {
+    background-image: url(image/email-hover.png);
+}
+
+#remark {
+    padding: 10px;
+    background-color: rgb(0, 0, 0, .5);
+    margin-top: 30px;
+}
